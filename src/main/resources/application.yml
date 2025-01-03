@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Kafka Sensors Demo
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: my-group-id
+  docker:
+    compose:
+      enabled: true
+      file: docker-compose.yml
+topic:
+  name: my-topic
