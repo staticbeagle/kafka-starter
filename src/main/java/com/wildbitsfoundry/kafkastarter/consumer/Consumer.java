@@ -1,4 +1,4 @@
-package com.wildbitsfoundry.kafkasensorsdemo.consumer;
+package com.wildbitsfoundry.kafkastarter.consumer;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

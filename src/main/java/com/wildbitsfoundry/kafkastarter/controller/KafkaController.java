@@ -1,6 +1,6 @@
-package com.wildbitsfoundry.kafkasensorsdemo.controller;
+package com.wildbitsfoundry.kafkastarter.controller;
 
-import com.wildbitsfoundry.kafkasensorsdemo.producer.Producer;
+import com.wildbitsfoundry.kafkastarter.producer.Producer;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
