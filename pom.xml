@@ -11,7 +11,7 @@
 	<groupId>com.wildbitsfoundry</groupId>
 	<artifactId>kafka-starter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Kafka Sensors Demo</name>
+	<name>Kafka Starter</name>
 	<description>Kafka Basic setup</description>
 	<url/>
 	<licenses>
@@ -104,5 +104,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
